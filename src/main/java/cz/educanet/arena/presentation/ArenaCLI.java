@@ -45,6 +45,10 @@ public class ArenaCLI {
      */
     public void renderEntireFight() {
         // TODO:
+        while (logic.getWinner() == null){
+            logic.fight();
+        }
+       // System.out.println("Vítěz " + logic.getWinner().getName());
         // while(...) {logic.fight.... sout...}
     }
 
